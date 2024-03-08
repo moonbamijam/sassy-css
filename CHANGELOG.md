@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.0](https://github.com/MoonbamiOfficial/sassy-css/compare/v2.0.0...v2.1.0) (2024-03-08)
+
+
+### Features
+
+* introduce sassy css ([138450e](https://github.com/MoonbamiOfficial/sassy-css/commit/138450eb680f0347b705b5181c5b8e841ff1f061))
+
 ## [2.0.0](https://github.com/MoonbamiOfficial/sassy-library/compare/v1.0.0...v2.0.0) (2024-03-08)
 
 
