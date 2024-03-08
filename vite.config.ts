@@ -10,8 +10,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Sassy Library",
-        short_name: "SL",
+        name: "Sassy CSS",
+        short_name: "Sassy CSS",
         description: "A simple CSS library using Sass",
         theme_color: "#FFFFFF",
         icons: [
