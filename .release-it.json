@@ -1,0 +1,20 @@
+{
+  "git": {
+    "commitMessage": "chore(build): release v${version}"
+  },
+  "github": {
+    "release": true,
+    "releaseName": "v${version}",
+    "tokenRef": "SASSY_CSS_TOKEN"
+  },
+  "npm": {
+    "publish": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "header": "# What's New",
+      "preset": "angular"
+    }
+  }
+}
