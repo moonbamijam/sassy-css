@@ -1,3 +1,14 @@
+# What's New
+
+# [2.2.0](https://github.com/MoonbamiOfficial/sassy-css/compare/v2.1.0...v2.2.0) (2024-03-10)
+
+
+### Features
+
+* add exclamation point to pwa names ([16858a9](https://github.com/MoonbamiOfficial/sassy-css/commit/16858a944fc4ee5ac04a60d8da0824a6da9e9cf6))
+* add release-it specifics ([758d071](https://github.com/MoonbamiOfficial/sassy-css/commit/758d071e8e7c8d01f954abf2b06f7f5941fe822a))
+* update font to poppins ([528c878](https://github.com/MoonbamiOfficial/sassy-css/commit/528c878b45d03e340410e9c455e3ae3bfd2cbf2d))
+
 # Changelog
 
 ## [2.1.0](https://github.com/MoonbamiOfficial/sassy-css/compare/v2.0.0...v2.1.0) (2024-03-08)
