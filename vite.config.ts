@@ -6,12 +6,11 @@ import react from "@vitejs/plugin-react-swc";
 export default defineConfig({
   plugins: [
     react(),
-
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Sassy CSS",
-        short_name: "Sassy CSS",
+        name: "Sassy CSS!",
+        short_name: "Sassy CSS!",
         description: "A simple CSS library using Sass",
         theme_color: "#FFFFFF",
         icons: [
