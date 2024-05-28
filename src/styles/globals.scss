@@ -1,0 +1,20 @@
+@import "./variables/colors";
+@import "media-query";
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 150ms ease-in-out;
+}
+
+body {
+  background-color: $background;
+}
+main {
+  padding: 100px 0;
+}
