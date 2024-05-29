@@ -1,5 +1,6 @@
 import { useState } from "react";
 import colorCardStyles from "./color-card.module.scss";
+import useDynamicTextColor from "../../../hooks/useDynamicTextColor";
 
 type ColorCardProps = {
   backgroundColor: string;
@@ -10,6 +11,7 @@ const ClickToCopy = (text: string) => {
 };
 
 const ColorCard = ({ backgroundColor }: ColorCardProps) => {
+  const { getTextColor } = useDynamicTextColor();
   const [isCopied, setIsCopied] = useState(false);
   const copied = () => setIsCopied(false);
 
@@ -26,7 +28,10 @@ const ColorCard = ({ backgroundColor }: ColorCardProps) => {
         releaseDisplayedIsCopied();
       }}
     >
-      <p className={`${colorCardStyles.color_hex}`}>
+      <p
+        style={{ color: getTextColor(backgroundColor) }}
+        className={`${colorCardStyles.color_hex}`}
+      >
         {isCopied ? "copied to clipboard" : backgroundColor}
       </p>
     </div>
