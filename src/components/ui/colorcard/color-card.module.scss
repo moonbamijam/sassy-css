@@ -1,0 +1,17 @@
+.color {
+  text-transform: capitalize;
+  width: 150px;
+  max-width: 150px;
+  height: 80px;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  .color_hex {
+    color: white;
+    text-transform: uppercase;
+    opacity: 70%;
+  }
+}
