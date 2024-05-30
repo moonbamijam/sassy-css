@@ -1,5 +1,17 @@
 # What's New
 
+# [2.3.0](https://github.com/MoonbamiOfficial/sassy-css/compare/v2.2.0...v2.3.0) (2024-05-30)
+
+
+### Features
+
+* add color section ([b202ec2](https://github.com/MoonbamiOfficial/sassy-css/commit/b202ec2c30fbbd1081991beccd569bdd8f31163c))
+* add default global styling ([bd7ab05](https://github.com/MoonbamiOfficial/sassy-css/commit/bd7ab0571336dcb3852867e6891a26f21cb4e0c1))
+* add dynamic text color based on bg color ([032710a](https://github.com/MoonbamiOfficial/sassy-css/commit/032710a8c237b04101ca403ed815a283d7c4c660))
+* add header ([653e384](https://github.com/MoonbamiOfficial/sassy-css/commit/653e384080472a863478beaa9c60444769a52a95))
+* add library for colors ([909d76e](https://github.com/MoonbamiOfficial/sassy-css/commit/909d76e3c25230aeb5e50caf0a7f0d6afe9037f0))
+* add smooth scroll and spacing to page ([b52c2f8](https://github.com/MoonbamiOfficial/sassy-css/commit/b52c2f86905e2818ecdce3f72d86ff5e8e45c73c))
+
 # [2.2.0](https://github.com/MoonbamiOfficial/sassy-css/compare/v2.1.0...v2.2.0) (2024-03-10)
 
 
