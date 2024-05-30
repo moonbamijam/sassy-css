@@ -21,11 +21,7 @@ const Color = () => {
         ));
   };
 
-  return (
-    <Grid id="color_grid" className={`${colorStyles.color_grid}`}>
-      {renderColors()}
-    </Grid>
-  );
+  return <Grid className={`${colorStyles.color_grid}`}>{renderColors()}</Grid>;
 };
 
 export default Color;

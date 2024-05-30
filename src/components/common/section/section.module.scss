@@ -7,11 +7,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 0;
   .heading {
     margin-bottom: 16px;
     .title {
       text-transform: capitalize;
       text-align: center;
+      font-size: 2.5rem;
     }
     .desc {
       text-align: center;

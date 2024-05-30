@@ -12,9 +12,11 @@
   transition: all 150ms ease-in-out;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: $background;
-}
-main {
-  padding: 100px 0;
+  height: 1500px;
 }
