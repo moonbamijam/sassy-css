@@ -15,7 +15,7 @@ const ColorCard = ({ backgroundColor }: ColorCardProps) => {
   const [isCopied, setIsCopied] = useState(false);
   const copied = () => setIsCopied(false);
 
-  const displayIsCopied = setTimeout(copied, 3000);
+  const displayIsCopied = setTimeout(copied,  );
   const releaseDisplayedIsCopied = () => clearTimeout(displayIsCopied);
 
   return (
