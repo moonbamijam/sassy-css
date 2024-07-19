@@ -1,11 +1,19 @@
 ---
 name: Feature request
-about: Suggest an idea for this project
-title: "[FEATURE] New feature"
+about: Add or request a feature
+title: "[FEATURE] Feature name"
 labels: 'type: feature'
 assignees: ''
 
 ---
 
-**What is this new feature you would like to add? Please describe.**
-A clear and concise description of what the feature is. Ex. This will make users [...]
+# Feature name
+
+> [!NOTE]
+> > Please provide at least short description of the feature here
+
+## Do the following:
+- [ ] List here all of the things that this feature requires
+
+## Reason(s) for adding:
+* List here all of the reason why we should add this
