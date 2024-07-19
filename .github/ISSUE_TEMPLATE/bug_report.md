@@ -1,20 +1,16 @@
 ---
 name: Bug report
-about: Create a report to help us improve
-title: "[BUG] New bug"
+about: Report a bug to help Sassy CSS improve
+title: "[BUG] Bug name"
 labels: 'type: bug'
-assignees: MoonbamiOfficial
+assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+# Bug name
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+> [!WARNING]
+> > Please provide a detailed information of the bug here, 
 
-**Screenshots (optional)**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
+## Screenshots:
+> You can insert any screenshots related to the bug if possible
