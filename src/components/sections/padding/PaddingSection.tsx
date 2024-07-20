@@ -21,7 +21,7 @@ type PaddingBoxProps = {
 
 const PaddingBox = ({ spacingSize }: PaddingBoxProps) => {
   return (
-    <div className={`${styles.sample_text}`} style={{ padding: spacingSize }}>
+    <div className={`${styles.padding_content}`} style={{ padding: spacingSize }}>
       {spacingSize}
     </div>
   );
