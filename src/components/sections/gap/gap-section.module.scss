@@ -1,0 +1,18 @@
+@import "../../../styles/variables/colors";
+@import "../../../styles/variables/border";
+@import "../../../styles/variables/spacing";
+
+.grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $lg;
+}
+
+.gap_wrapper {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  .gap_content {
+    background-color: lightblue;
+    height: 100%;
+  }
+}

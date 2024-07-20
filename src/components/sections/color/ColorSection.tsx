@@ -1,13 +1,13 @@
 import { colors } from "../../../lib/colors";
 import Grid from "../../common/grid/Grid";
 import ColorCard from "../../ui/colorcard/ColorCard";
-import colorStyles from "./color.module.scss";
+import colorStyles from "./color-section.module.scss";
 
 export type TextColorProps = {
   hex: string;
 };
 
-const Color = () => {
+const ColorSection = () => {
   const renderColors = () => {
     if (colors)
       return colors
@@ -24,4 +24,4 @@ const Color = () => {
   return <Grid className={`${colorStyles.color_grid}`}>{renderColors()}</Grid>;
 };
 
-export default Color;
+export default ColorSection;
