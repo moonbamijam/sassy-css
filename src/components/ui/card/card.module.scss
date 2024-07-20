@@ -1,0 +1,15 @@
+@import "../../../styles/variables/colors";
+@import '../../../styles/variables/border';
+
+.card {
+  max-width: 300px;
+  min-width: 150px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  padding: 8px 16px;
+  // border: $regular solid rgb(121, 121, 121);
+  border-radius: $sm;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  text-transform: capitalize;
+}

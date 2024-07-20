@@ -1,0 +1,15 @@
+@import "../../../styles/variables/colors";
+@import "../../../styles/variables//border";
+@import '../../../styles/variables/spacing';
+
+.grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: $lg;
+}
+
+.sample_text {
+  text-align: center;
+  text-transform: capitalize;
+  border: $thin solid gray;
+  border-radius: $sm;
+}
