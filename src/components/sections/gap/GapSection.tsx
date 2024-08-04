@@ -2,9 +2,7 @@ import styles from "./gap-section.module.scss";
 import Grid from "../../common/grid/Grid";
 import Card from "../../ui/card/Card";
 
-type Props = {};
-
-const GapSection = (props: Props) => {
+const GapSection = () => {
   return (
     <Grid className={`${styles.grid}`}>
       <Card content={<MarginBox spacingSize="2" />} details="extra small" />

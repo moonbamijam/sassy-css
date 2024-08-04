@@ -2,9 +2,7 @@ import Grid from "../../common/grid/Grid";
 import Card from "../../ui/card/Card";
 import styles from "./margin-section.module.scss";
 
-type Props = {};
-
-const MarginSection = (props: Props) => {
+const MarginSection = () => {
   return (
     <Grid className={`${styles.grid}`}>
       <Card content={<MarginBox spacingSize="2px" />} details="extra small" />
@@ -24,7 +22,10 @@ type MarginBoxProps = {
 const MarginBox = ({ spacingSize }: MarginBoxProps) => {
   return (
     <div className={`${styles.margin_wrapper}`}>
-      <div className={`${styles.margin_content}`} style={{ margin: spacingSize }}>
+      <div
+        className={`${styles.margin_content}`}
+        style={{ margin: spacingSize }}
+      >
         {spacingSize}
       </div>
     </div>
