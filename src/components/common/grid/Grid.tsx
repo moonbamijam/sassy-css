@@ -1,9 +1,8 @@
-import { ReactNode } from "react";
 import gridStyles from "./grid.module.scss";
 
 export type GridType = {
   className?: string;
-  children: ReactNode;
+  children: React.ReactNode;
 };
 
 const Grid = ({ className, children }: GridType) => {
