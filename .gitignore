@@ -29,3 +29,6 @@ dist-ssr
 
 # misc
 icons-credits.txt
+
+# Vercel specifics
+.vercel
