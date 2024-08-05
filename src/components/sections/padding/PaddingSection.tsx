@@ -1,10 +1,10 @@
+import Styles from "./padding-section.module.scss";
 import Grid from "../../common/grid/Grid";
 import Card from "../../ui/card/Card";
-import styles from "./padding-section.module.scss";
 
 const PaddingSection = () => {
   return (
-    <Grid className={`${styles.grid}`}>
+    <Grid className={`${Styles.grid}`}>
       <Card content={<PaddingBox spacingSize="2px" />} details="extra small" />
       <Card content={<PaddingBox spacingSize="4px" />} details="small" />
       <Card content={<PaddingBox spacingSize="6px" />} details="medium" />
@@ -21,7 +21,7 @@ type PaddingBoxProps = {
 
 const PaddingBox = ({ spacingSize }: PaddingBoxProps) => {
   return (
-    <div className={`${styles.padding_content}`} style={{ padding: spacingSize }}>
+    <div className={`${Styles.padding_content}`} style={{ padding: spacingSize }}>
       {spacingSize}
     </div>
   );

@@ -1,10 +1,10 @@
-import styles from "./gap-section.module.scss";
+import Styles from "./gap-section.module.scss";
 import Grid from "../../common/grid/Grid";
 import Card from "../../ui/card/Card";
 
 const GapSection = () => {
   return (
-    <Grid className={`${styles.grid}`}>
+    <Grid className={`${Styles.grid}`}>
       <Card content={<MarginBox spacingSize="2" />} details="extra small" />
       <Card content={<MarginBox spacingSize="4" />} details="small" />
       <Card content={<MarginBox spacingSize="6" />} details="medium" />
@@ -21,10 +21,10 @@ type MarginBoxProps = {
 
 const MarginBox = ({ spacingSize }: MarginBoxProps) => {
   return (
-    <div className={`${styles.gap_wrapper}`}>
+    <div className={`${Styles.gap_wrapper}`}>
       <div>{spacingSize}</div>
       <div
-        className={`${styles.gap_content}`}
+        className={`${Styles.gap_content}`}
         style={{ width: spacingSize + "px " }}
       ></div>
       <p style={{ textTransform: "none" }}>px</p>
