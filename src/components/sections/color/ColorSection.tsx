@@ -1,7 +1,7 @@
 import { colors } from "../../../lib/colors";
 import Grid from "../../common/grid/Grid";
 import ColorCard from "../../ui/colorcard/ColorCard";
-import colorStyles from "./color-section.module.scss";
+import Styles from "./color-section.module.scss";
 
 export type TextColorProps = {
   hex: string;
@@ -21,7 +21,7 @@ const ColorSection = () => {
         ));
   };
 
-  return <Grid className={`${colorStyles.color_grid}`}>{renderColors()}</Grid>;
+  return <Grid className={`${Styles.color_grid}`}>{renderColors()}</Grid>;
 };
 
 export default ColorSection;

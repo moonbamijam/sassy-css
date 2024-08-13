@@ -5,6 +5,7 @@ import ColorSection from "./components/sections/color/ColorSection";
 import GapSection from "./components/sections/gap/GapSection";
 import MarginSection from "./components/sections/margin/MarginSection";
 import PaddingSection from "./components/sections/padding/PaddingSection";
+import FontFamilySection from "./components/sections/font/family/FontFamilySection";
 
 const App = () => {
   return (
@@ -38,6 +39,13 @@ const App = () => {
           desc="The distance between contents"
         >
           <GapSection />
+        </Section>
+        <Section
+          id="font family section"
+          title="font families"
+          desc="The appearance of texts that you see and read"
+        >
+          <FontFamilySection />
         </Section>
       </main>
     </>
