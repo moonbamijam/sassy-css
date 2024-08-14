@@ -1,17 +1,17 @@
 import { navLinks } from "../../lib/navLinks";
-import headerStyles from "./header.module.scss";
+import Styles from "./header.module.scss";
 
 const Header = () => {
   return (
     <>
-      <div className={`${headerStyles.header_bg}`}></div>
-      <header className={`container ${headerStyles.header}`}>
-        <a href="/" className={`${headerStyles.title}`}>
+      <div className={`${Styles.header_bg}`}></div>
+      <header className={`container ${Styles.header}`}>
+        <a href="/" className={`${Styles.title}`}>
           <h2>Sassy CSS</h2>
         </a>
-        <nav className={`${headerStyles.nav}`}>
+        <nav className={`${Styles.nav}`}>
           {navLinks.map((navLink, id) => (
-            <a key={id} href={navLink.href} className={`${headerStyles.a}`}>
+            <a key={id} href={navLink.href} className={`${Styles.a}`}>
               {navLink.name}
             </a>
           ))}
