@@ -13,35 +13,35 @@ const App = () => {
       <Header />
       <main>
         <Section
-          id="color section"
+          id="color-section"
           title={"colors"}
           desc={"Basic colors ready for use!"}
         >
           <ColorSection />
         </Section>
         <Section
-          id="margin section"
+          id="margin-section"
           title="margin"
           desc="The space around the border of an element."
         >
           <MarginSection />
         </Section>
         <Section
-          id="padding section"
+          id="padding-section"
           title="padding"
           desc="The space between the content and the border of an element"
         >
           <PaddingSection />
         </Section>
         <Section
-          id="gap section"
+          id="gap-section"
           title="gap"
           desc="The distance between contents"
         >
           <GapSection />
         </Section>
         <Section
-          id="font family section"
+          id="font-family-section"
           title="font families"
           desc="The appearance of texts that you see and read"
         >
