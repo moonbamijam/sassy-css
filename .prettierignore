@@ -1,12 +1,7 @@
-# ignore artifacts
 build
 coverage
-
-# auto generated files
 pnpm-lock.yaml
-
-# vite env variables
 vite-env.d.ts
-
-# devops
 CHANGELOG.md
+_variables.scss
+_utils.scss
