@@ -1,10 +1,5 @@
 @import "../../../styles/variables";
 
-.grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: $lg;
-}
-
 .padding_content {
   background-color: rgb(154, 255, 114);
   text-align: center;

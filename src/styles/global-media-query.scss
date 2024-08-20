@@ -1,3 +1,5 @@
+@import "variables";
+
 .container {
   width: 100%;
   margin-left: auto;
@@ -10,31 +12,36 @@
   .container {
     max-width: 475px;
   }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: $lg;
+  }
 }
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
-  }
-  #color_grid {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
   }
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 @media (min-width: 1024px) {
   .container {
     max-width: 1024px;
   }
-  #color_grid {
-    grid-template-columns: repeat(5, 1fr);
-  }
 }
 @media (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: $xl;
   }
 }
 @media (min-width: 1536px) {
@@ -45,5 +52,8 @@
 @media (min-width: 1920px) {
   .container {
     max-width: 1920px;
+  }
+  .grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }

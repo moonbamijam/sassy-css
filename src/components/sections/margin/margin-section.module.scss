@@ -1,10 +1,5 @@
 @import "../../../styles/variables";
 
-.grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: $lg;
-}
-
 .margin_wrapper {
   background-color: orange;
   border-radius: $sm;

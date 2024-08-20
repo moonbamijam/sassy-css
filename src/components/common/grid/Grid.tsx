@@ -6,7 +6,7 @@ export type GridType = {
 };
 
 const Grid = ({ className, children }: GridType) => {
-  return <div className={`${gridStyles.grid} ${className}`}>{children}</div>;
+  return <div className={`grid ${gridStyles.grid} ${className}`}>{children}</div>;
 };
 
 export default Grid;
