@@ -1,4 +1,4 @@
-@import "../../styles/variables/colors";
+@import "../../styles/variables";
 
 .header_bg {
   position: fixed;
@@ -22,17 +22,57 @@
   .title {
     color: white;
   }
-  .nav {
-    display: flex;
-    gap: 2px;
-    .a {
-      text-transform: capitalize;
-      color: white;
-      padding: 12px;
-      border-radius: 8px;
-      &:hover {
-        background-color: $secondary;
+
+  .btn {
+    position: relative;
+    color: white;
+    &:hover {
+      background-color: $primary-variant;
+    }
+    .nav {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 8px 16px;
+      margin-top: 60px;
+      border: 1px solid $surface;
+      border-radius: $md;
+      background-color: white;
+      box-shadow: $shadow-base;
+      .a {
+        text-transform: capitalize;
+        color: black;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: $text-base;
+        &:hover {
+          background-color: $primary;
+          color: white;
+        }
       }
     }
   }
+}
+
+@media (min-width: 475px) {
+  .header {
+    .nav {
+      display: flex;
+    }
+  }
+}
+@media (min-width: 640px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+}
+@media (min-width: 1920px) {
 }
