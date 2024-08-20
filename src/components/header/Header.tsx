@@ -1,7 +1,15 @@
+import { Menu } from "lucide-react";
 import { navLinks } from "../../lib/navLinks";
 import Styles from "./header.module.scss";
+import { useState } from "react";
 
 const Header = () => {
+  const [dropdown, setDropdown] = useState(true);
+
+  const toggleDropdown = () => {
+    setDropdown(!dropdown)
+  }
+
   return (
     <>
       <div className={`${Styles.header_bg}`}></div>
@@ -16,6 +24,18 @@ const Header = () => {
             </a>
           ))}
         </nav>
+        <button className={`btn ${Styles.btn}`} onClick={toggleDropdown}>
+          <Menu />
+          {dropdown && (
+            <nav className={`${Styles.btn_nav}`}>
+              {navLinks.map((navLink, id) => (
+                <a key={id} href={navLink.href} className={`${Styles.a}`}>
+                  {navLink.name}
+                </a>
+              ))}
+            </nav>
+          )}
+        </button>
       </header>
     </>
   );

@@ -1,7 +1,6 @@
-@import "../../../styles/variables/colors";
+@import "../../../styles/variables";
 
 .color_grid {
   position: relative;
   display: inline-grid;
-  grid-template-columns: repeat(3, 1fr);
 }
