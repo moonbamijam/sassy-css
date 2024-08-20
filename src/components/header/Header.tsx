@@ -17,11 +17,17 @@ const Header = () => {
         <a href="/" className={`${Styles.title}`}>
           <h2>Sassy CSS</h2>
         </a>
-
+        <nav className={`${Styles.nav}`}>
+          {navLinks.map((navLink, id) => (
+            <a key={id} href={navLink.href} className={`${Styles.a}`}>
+              {navLink.name}
+            </a>
+          ))}
+        </nav>
         <button className={`btn ${Styles.btn}`} onClick={toggleDropdown}>
           <Menu />
           {dropdown && (
-            <nav className={`${Styles.nav}`}>
+            <nav className={`${Styles.btn_nav}`}>
               {navLinks.map((navLink, id) => (
                 <a key={id} href={navLink.href} className={`${Styles.a}`}>
                   {navLink.name}

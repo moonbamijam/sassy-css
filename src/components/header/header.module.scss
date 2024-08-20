@@ -22,14 +22,26 @@
   .title {
     color: white;
   }
-
+  .nav {
+    display: flex;
+    gap: 2px;
+    .a {
+      text-transform: capitalize;
+      color: white;
+      padding: 12px;
+      border-radius: 8px;
+      &:hover {
+        background-color: $secondary;
+      }
+    }
+  }
   .btn {
     position: relative;
     color: white;
     &:hover {
       background-color: $primary-variant;
     }
-    .nav {
+    .btn_nav {
       position: absolute;
       top: 0;
       right: 0;
@@ -59,20 +71,23 @@
 
 @media (min-width: 475px) {
   .header {
+    .btn {
+      .btn_nav {
+        display: flex;
+      }
+    }
+    .nav {
+      display: none;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    .btn {
+      display: none;
+    }
     .nav {
       display: flex;
     }
   }
-}
-@media (min-width: 640px) {
-}
-@media (min-width: 768px) {
-}
-@media (min-width: 1024px) {
-}
-@media (min-width: 1280px) {
-}
-@media (min-width: 1536px) {
-}
-@media (min-width: 1920px) {
 }
