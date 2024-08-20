@@ -1,5 +1,6 @@
-@import "./variables/colors";
-@import "media-query";
+@import "variables";
+@import "global-media-query";
+@import "utils";
 
 *,
 ::before,
