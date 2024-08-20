@@ -2,18 +2,20 @@
 name: Feature request
 about: Add or request a feature
 title: "[FEATURE] Feature name"
-labels: 'type: feature'
-assignees: ''
-
+labels: "type: feature"
+assignees: ""
 ---
 
 # Feature name
 
 > [!NOTE]
-> > Please provide at least short description of the feature here
+>
+> <!-- Please provide at least short description of the feature here -->
 
 ## Do the following:
-- [ ] List here all of the things that this feature requires
+
+- [ ] <!-- List here all of the things that this feature requires -->
 
 ## Reason(s) for adding:
-* List here all of the reason why we should add this
+
+ <!-- List here all of the reason why we should add this -->
