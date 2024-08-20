@@ -9,6 +9,7 @@ const FontFamilySection = () => {
     if (fontFamilies) {
       return fontFamilies.map((fontFamily) => (
         <Card
+          key={fontFamily.name}
           style={{
             fontFamily: replaceSpacesToDash(fontFamily.name.toLowerCase()),
           }}
