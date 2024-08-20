@@ -1,6 +1,4 @@
-@import "../../../styles/variables/colors";
-@import "../../../styles/variables//border";
-@import '../../../styles/variables/spacing';
+@import "../../../styles/variables";
 
 .grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
